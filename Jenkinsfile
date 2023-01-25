@@ -8,7 +8,7 @@ pipeline {
         NEXUS_PROTOCOL = "http"
         NEXUS_URL = "172.17.166.19:8080"
         NEXUS_REPOSITORY = "test-maven-repo"
-        NEXUS_CREDENTIAL_ID = "local_admin"
+        NEXUS_CREDENTIAL_ID = "svc_nexus"
     }
     stages {
         stage("Clone code from GitHub") {
